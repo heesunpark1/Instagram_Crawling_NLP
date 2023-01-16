@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+<div class="content">
+  <div class="container js-form-view">
+    <form class="settig-form" method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <button type="submit">Go Crawl</button>
+      </form>
+  </div>
+  <div class="container js-result-view" style="display: none;">
+      <div class="row js-monitor-log">
+          <div class="col-md-12">
+              <h3><span class="glyphicon glyphicon-info-sign"></span> Log Monitoring</h3>
+              <div class="alert alert-info text-center" role="alert">
+                  <pre id="el-log-monitor" style="height: 400px;text-align: left;font-size: 8px;"></pre>
+              </div>
+          </div>
+      </div> <!-- row -->
+      <hr>
+      <div class="row js-csv-data">
+          <div class="col-md-12">
+              <h3><span class="glyphicon glyphicon-info-sign"></span> Output CSV Data</h3>
+              <div class="alert alert-info text-center" role="alert">
+                  <pre id="el-csv-data" style="height: 400px;text-align: left;font-size: 8px;"></pre>
+              </div>
+          </div>
+      </div> <!-- row -->
+  </div>
+</div>
+
+<script type="text/javascript" src="{% static 'js/app.js' %}"></script>
+{% endblock %}

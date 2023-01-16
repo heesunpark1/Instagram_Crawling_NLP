@@ -1,0 +1,14 @@
+django==2.2
+djangorestframework
+pygments
+requests>=2.13.0
+selenium>=3.4.0
+asyncio==3.4.3
+fasttext
+konlpy
+nltk
+numpy
+sklearn
+h5py
+beautifulsoup4
+pandas

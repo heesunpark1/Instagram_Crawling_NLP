@@ -1,0 +1,16 @@
+{
+	"INSTA_DOMAIN":"http://www.instagram.com",
+	"FACEBOOK_DOMAIN":"http://www.facebook.com",
+	"PHANTOMJS_PATH":"/YOUR_PATH/CRAWLER/node_modules/phantomjs/bin/phantomjs",
+	"MUSIC_SITE_DOMAIN":"http://www.genie.co.kr",
+	"DB_HOST":"localhost",
+	"DB_NAME":"SnsCrawley",
+	"DB_PORT":27017,
+	"HASHTAGS":[
+		"#기쁨",
+		"#슬픔",
+		"#즐거움",
+		"#화남",
+		"#우울"
+	]
+}

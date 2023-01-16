@@ -1,0 +1,15 @@
+{
+	"INSTA_DOMAIN":"http://www.instagram.com",
+	"DB_HOST":"localhost",
+	"DB_NAME":"SnsCrawley",
+	"DB_PORT":27017,
+	"HASHTAGS":[
+		"#기쁨",
+		"#슬픔",
+		"#즐거움",
+		"#화남",
+		"#분노",
+		"#그냥그램",
+		"#그냥그렇다고"
+	]
+}
